@@ -1,0 +1,283 @@
+/* CSS Document */
+
+#cwp-pagebuilder h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#cwp-pagebuilder .cpb-add-part-wrapper {
+	padding: 12px 0 4px;
+}
+
+#cwp-pagebuilder .cpb-add-part-wrapper a {
+	display: none;
+}
+
+/*
+* Section
+* ----------------------------------------------
+*/
+
+#cwp-pagebuilder .cpb-section > header {
+	position: relative;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+#cwp-pagebuilder .cpb-section > header:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	border-bottom: 1px solid #fff;
+}
+
+#cwp-pagebuilder .cpb-section > header h4 {
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+	display: inline-block;
+	background-color: #f1f1f1;
+	padding: 0 10px 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+/*
+* Row
+* ----------------------------------------------
+*/
+
+#cwp-pagebuilder .cpb-row {
+}
+
+#cwp-pagebuilder .cpb-row > header h4 {
+	display: inline-block;
+	color: #555;
+	padding: 3px 0;
+	margin: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#cwp-pagebuilder .cpb-row > .cpb-item-set {
+	margin: 0 -3px;
+}
+
+#cwp-pagebuilder .cpb-row > footer{
+	min-height: 6px;
+}
+
+#cwp-pagebuilder .cpb-row > .cpb-item-set.halves .cpb-column {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+/*
+* Columns
+* ----------------------------------------------
+*/
+
+#cwp-pagebuilder .cpb-column .cpb-column-inner {
+	margin: 0 3px;
+	background-color: #555;
+	border-radius: 2px;
+}
+
+#cwp-pagebuilder .cpb-column-inner > header h4 {
+	color: #ccc;
+	padding: 4px 8px;
+	margin: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+#cwp-pagebuilder .cpb-column-inner > .cpb-item-set {
+	min-height: 75px;
+	background-color: #f1f1f1;
+	margin: 0 8px;
+	border-radius: 3px;
+	padding: 12px 0;
+}
+
+#cwp-pagebuilder .cpb-column-inner > footer {
+	min-height: 8px;
+}
+
+#cwp-pagebuilder .cpb-column-inner > .cpb-item-set > div {
+	margin: 0 12px 12px;
+}
+
+/*
+* Generic Item
+* ----------------------------------------------
+*/
+
+#cwp-pagebuilder .cpb-item {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+#cwp-pagebuilder .cpb-item > header {
+	border-bottom: 1px solid #eee;
+}
+
+#cwp-pagebuilder .cpb-item > header > h4 {
+	color: #555;
+	padding: 4px 8px;
+}
+
+#cwp-pagebuilder .cpb-item > .cpb-item-set {
+	position: relative;
+}
+
+#cwp-pagebuilder .cpb-item > .cpb-item-set > .cpb-item-content {
+	margin: 0 8px;
+}
+
+#cwp-pagebuilder .cpb-item > .cpb-item-set > .cpb-edit-item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 2px;
+}
+
+#cwp-pagebuilder .cpb-item > .cpb-item-set > .cpb-edit-item:hover {
+	background: rgba(0,102,204,0.1);
+	border: 1px solid #099; 
+}
+
+#cwp-pagebuilder .cpb-item > footer {
+	min-height: 6px;
+}
+
+/*
+* Textblock
+* ----------------------------------------------
+*/
+#cwp-pagebuilder .cpb-textblock textarea {
+	display: none;
+}
+
+#cwp-pagebuilder .cpb-textblock > .cpb-item-set {
+	padding: 8px 0;
+}
+
+#cwp-pagebuilder .cpb-textblock iframe {
+	overflow: hidden;
+	width: 100%;
+	height: 30px
+}
+
+/*
+* Forms
+* ----------------------------------------------
+*/
+
+#cwp-pagebuilder-forms .cpb-form-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: -9999px;
+	z-index: 9999;
+}
+
+#cwp-pagebuilder-forms .cpb-form-wrapper.active {
+	top: 0;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form {
+	position: relative;
+	margin: 0 auto;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form.cpb-form-small {
+	max-width: 300px;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form.cpb-form-medium {
+	max-width: 500px;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form.cpb-form-large {
+	max-width: 700px;
+}
+
+#cwp-pagebuilder-forms nav a {
+	display: inline-block;
+	vertical-align: bottom;
+	padding: 8px 18px;
+	background-color: #eee;
+	border-radius: 3px 3px 0 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	position: relative;
+}
+
+#cwp-pagebuilder-forms nav a.active {
+	top: 1px;
+	z-index: 3;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form-sections{
+	background-color: #eee;
+	padding: 16px 0;
+	border: 1px solid #ccc;
+}
+
+#cwp-pagebuilder-forms .cpb-item-form-section{
+	margin: 0 16px;
+}
+
+/*
+* Lightbox
+* ----------------------------------------------
+*/
+#cpb-lb-bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9998;
+	background-color: rgba( 0,0,0,0.8 );
+	display: none;
+}
+
+/*
+* Buttons
+* ----------------------------------------------
+*/
+#cwp-pagebuilder .cpb-standard-button {
+	display: inline-block;
+	padding: 6px 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #2ea2cc;
+    border-color: #0074a2;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+	border-radius: 4px;
+	margin-right: 18px;
+}
+
+#cwp-pagebuilder .cpb-standard-button.cpb-button-grey {
+	background: #ccc;
+    border-color: #0074a2;
+}
